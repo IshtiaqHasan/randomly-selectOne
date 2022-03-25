@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Apple AirPods Pro",
+        "price": 269,
+        "img": "https://cdn.mos.cms.futurecdn.net/7P4mkYvdVwRQphcNZ945eP-970-80.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bose QuietComfort",
+        "price": 219,
+        "img": "https://cdn.mos.cms.futurecdn.net/xLH2cuLznXvpf3vMBkQZ7R-970-80.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Google Pixel Buds",
+        "price": 100,
+        "img": "https://cdn.mos.cms.futurecdn.net/TyZJPdh2kMeDkTXCEsoHUm-970-80.jpg"
+    },
+    {
+        "id": 4,
+        "name": "JBL Reflect Flow Pro",
+        "price": 153,
+        "img": "https://cdn.mos.cms.futurecdn.net/AC5885633oypsxzAeJC5Pk-970-80.jpg"
+    },
+    {
+        "id": 5,
+        "name": "JBL Reflect Flow",
+        "price": 76,
+        "img": "https://cdn.mos.cms.futurecdn.net/dZGoweRGMMYjkbdxLXaSWV-970-80.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Earfun Air",
+        "price": 50,
+        "img": "https://cdn.mos.cms.futurecdn.net/nJAeQPvR8tfoCg9EBmSfh8-970-80.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Panasonic RZ-S500W",
+        "price": 127,
+        "img": "https://cdn.mos.cms.futurecdn.net/Bb79uaysJhJC6dHUxKMVCb-970-80.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Shure Aonic Free",
+        "price": 179,
+        "img": "https://cdn.mos.cms.futurecdn.net/TApLzuYc5aQrLEiNcU3w9B-970-80.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Sony WF-1000XM4",
+        "price": 248,
+        "img": "https://cdn.mos.cms.futurecdn.net/DDTud5qhXR7vcqX6caLhFJ-970-80.jpg"
+    }
+]
