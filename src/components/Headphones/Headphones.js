@@ -31,7 +31,6 @@ const Headphones = () => {
     }
 
 
-
     const handleReset = () => {
         const newItem = [];
         setItem(newItem);
