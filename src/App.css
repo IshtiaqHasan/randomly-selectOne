@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+hr {
+  border: 10px solid green;
+  border-radius: 5px;
+}
+.qusAns{
+  text-decoration: underline;
+  text-align: center;
+}
+.ques{
+  text-decoration: underline;
+  padding: 20px;
+}
+.ans{
+  padding-left: 20px;
+}
 
 .App-logo {
   height: 40vmin;
