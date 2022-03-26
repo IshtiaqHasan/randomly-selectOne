@@ -26,7 +26,8 @@ const Headphones = () => {
     const handlePick = () => {
         const newItem = [...item];
         const randomItem = newItem[Math.floor(Math.random() * newItem.length)];
-        setItem(randomItem.name);
+        alert('Best TWS For You is:  ' + randomItem.name)
+
     }
 
 
