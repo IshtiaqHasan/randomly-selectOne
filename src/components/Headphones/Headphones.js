@@ -23,6 +23,13 @@ const Headphones = () => {
         }
     }
 
+    const handlePick = () => {
+        const newItem = [...item];
+        const randomItem = newItem[Math.floor(Math.random() * newItem.length)];
+        setItem(randomItem.name);
+    }
+
+
 
     const handleReset = () => {
         const newItem = [];
@@ -32,6 +39,7 @@ const Headphones = () => {
 
     return (
         <div className='headphones-container'>
+
             <div className="products-container">
                 {
                     headphones.map(headphone => <Product
@@ -43,10 +51,10 @@ const Headphones = () => {
             </div>
             <div className="cart-container">
                 <h2>Suitable TWS For You</h2>
-                {
-                    item.map(product =>
-                        <Cart
 
+                {
+                    item.map((product) =>
+                        <Cart
                             key={product.id}
                             product={product}
 
@@ -55,8 +63,9 @@ const Headphones = () => {
                     )
                 }
 
+
                 <div className='pick-reset-btn'>
-                    <button className='pick-btn'>Pick Best</button>
+                    <button onClick={() => handlePick()} className='pick-btn'>Pick Best</button>
                     <button onClick={handleReset} className='reset-btn'>Reset</button>
                 </div>
             </div>

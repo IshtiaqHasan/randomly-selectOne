@@ -4,7 +4,7 @@ import React from 'react';
 import './Product.css'
 
 const Product = ({ headphone, handleAddToCart }) => {
-    //console.log(handleAddToCart)
+
 
     const { img, name, price } = headphone;
 
