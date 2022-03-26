@@ -2,9 +2,16 @@
     height: 100px;
     background-color: #1c2b35;
     color:orange;
-    text-align: center;
     padding: 3px;
+    display: flex;
+    font-size: larger;
+    font-style: italic;
 }
 .header h1{
     margin: 0;
+    padding: 20px;
+}
+.header p{
+    font-size: small;
+    margin-top: 50px;
 }
