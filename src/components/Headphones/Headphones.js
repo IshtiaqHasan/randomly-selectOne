@@ -6,7 +6,8 @@ import './Headphones.css'
 const Headphones = () => {
     const [headphones, setHeadphones] = useState([]);
     const [item, setItem] = useState([]);
-    //console.log(item)
+
+
 
     useEffect(() => {
         fetch('data.json')
@@ -15,9 +16,19 @@ const Headphones = () => {
     }, []);
 
     const handleAddToCart = (headphone) => {
-        const newItem = [...item, headphone];
+
+        if (item.length < 4) {
+            const newItem = [...item, headphone];
+            setItem(newItem);
+        }
+    }
+
+
+    const handleReset = () => {
+        const newItem = [];
         setItem(newItem);
     }
+
 
     return (
         <div className='headphones-container'>
@@ -38,11 +49,16 @@ const Headphones = () => {
 
                             key={product.id}
                             product={product}
+
                         >
                         </Cart>
                     )
                 }
 
+                <div className='pick-reset-btn'>
+                    <button className='pick-btn'>Pick Best</button>
+                    <button onClick={handleReset} className='reset-btn'>Reset</button>
+                </div>
             </div>
         </div>
 

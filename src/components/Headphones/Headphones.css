@@ -16,6 +16,28 @@
 .cart-container h2{
     text-align: center;
 }
+.pick-reset-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pick-btn,.reset-btn{
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 8px;
+  margin: 10px;
+  
+}
+.pick-btn:hover,.reset-btn:hover {
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+}
 
 @media screen and (max-width:767px){
     .products-container{
