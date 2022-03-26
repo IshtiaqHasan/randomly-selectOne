@@ -6,4 +6,26 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
+    margin: 50px ;
+}
+.cart-container{
+    background-color: rgba(255,153,0,0.5);
+    margin-right: 3px;
+    
+}
+.cart-container h2{
+    text-align: center;
+}
+
+@media screen and (max-width:767px){
+    .products-container{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .headphones-container{
+        position: relative;
+    }
+    .cart-container{
+        position: absolute;
+        bottom: 0;
+    }
 }
